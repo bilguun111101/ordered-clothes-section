@@ -1,15 +1,15 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Ordered from './Ordered/Ordered'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Account from "./Account/Account";
 
 const RoutesSection = () => {
   return (
     <Router>
-        <Routes>
-            <Route path="/ordered" element={<Ordered />} />
-        </Routes>
+      <Routes>
+        <Route path="/account" element={<Account />} />
+      </Routes>
     </Router>
-  )
-}
+  );
+};
 
-export default RoutesSection
+export default RoutesSection;
